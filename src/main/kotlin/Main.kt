@@ -21,8 +21,8 @@ fun city() {
 
 fun numsArr() {
         var nums = arrayOf(32, 17, 4, 213, 78, 43, 90, 31, 3, 73, 11, 158, 62)
-        val n1 = nums.get(2)
-        val n2 = nums.get(5)
+        val n1 = nums.get(1)
+        val n2 = nums.get(4)
         println(n1 + n2)
         println(nums.indexOf(158))
         println(nums.sortedArray().contentToString())
